@@ -15,6 +15,7 @@
 		C9A04C9C1CA23E0D002E16D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A04C9A1CA23E0D002E16D9 /* LaunchScreen.storyboard */; };
 		C9A04CA71CA23E0D002E16D9 /* ImageCertificationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A04CA61CA23E0D002E16D9 /* ImageCertificationDemoTests.m */; };
 		C9A04CB21CA23E0D002E16D9 /* ImageCertificationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A04CB11CA23E0D002E16D9 /* ImageCertificationDemoUITests.m */; };
+		C9A04CC21CA23E4A002E16D9 /* ImagCertificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A04CC11CA23E4A002E16D9 /* ImagCertificationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C9A04CAD1CA23E0D002E16D9 /* ImageCertificationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCertificationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A04CB11CA23E0D002E16D9 /* ImageCertificationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCertificationDemoUITests.m; sourceTree = "<group>"; };
 		C9A04CB31CA23E0D002E16D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A04CC01CA23E4A002E16D9 /* ImagCertificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagCertificationView.h; sourceTree = "<group>"; };
+		C9A04CC11CA23E4A002E16D9 /* ImagCertificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagCertificationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				C9A04C901CA23E0D002E16D9 /* AppDelegate.m */,
 				C9A04C921CA23E0D002E16D9 /* ViewController.h */,
 				C9A04C931CA23E0D002E16D9 /* ViewController.m */,
+				C9A04CBF1CA23E1F002E16D9 /* class */,
 				C9A04C951CA23E0D002E16D9 /* Main.storyboard */,
 				C9A04C981CA23E0D002E16D9 /* Assets.xcassets */,
 				C9A04C9A1CA23E0D002E16D9 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				C9A04CB31CA23E0D002E16D9 /* Info.plist */,
 			);
 			path = ImageCertificationDemoUITests;
+			sourceTree = "<group>";
+		};
+		C9A04CBF1CA23E1F002E16D9 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				C9A04CC01CA23E4A002E16D9 /* ImagCertificationView.h */,
+				C9A04CC11CA23E4A002E16D9 /* ImagCertificationView.m */,
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				C9A04C941CA23E0D002E16D9 /* ViewController.m in Sources */,
 				C9A04C911CA23E0D002E16D9 /* AppDelegate.m in Sources */,
 				C9A04C8E1CA23E0D002E16D9 /* main.m in Sources */,
+				C9A04CC21CA23E4A002E16D9 /* ImagCertificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
